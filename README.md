@@ -1,29 +1,44 @@
+<div align="center">
 
-# iOS x Android
+# 📱 iOS x Android
 
-An all-in-one Magisk / KernelSU module that brings:
-- iOS Emoji (system-wide, all apps)
-- Custom Font (Kohinoor Bangla & others)
+### Bring iOS Emoji & Kohinoor Bangla font to your rooted Android device — system-wide.
+
+<img src="banner.png" alt="iOS x Android Banner" width="100%">
+
+</div>
+
+<br>
+
+<div align="center">
+
+![Version](https://img.shields.io/badge/VERSION-1.0.0-blue?style=for-the-badge&labelColor=1a1a1a)
+![Author](https://img.shields.io/badge/AUTHOR-SABBIR_SENPAI-purple?style=for-the-badge&labelColor=1a1a1a)
+![Platform](https://img.shields.io/badge/PLATFORM-MAGISK_|_KERNELSU_|_APATCH-red?style=for-the-badge&labelColor=1a1a1a)
+![License](https://img.shields.io/badge/LICENSE-MIT-green?style=for-the-badge&labelColor=1a1a1a)
+
+</div>
 
 ---
 
 ## ✨ Features
 
-- ✅ iOS Emoji on all apps (except WhatsApp & other APK-bundled apps)
-- ✅ Custom Bangla font (Kohinoor Bangla) for system & apps
-- ✅ Auto cleanup on install & uninstall
-- ✅ No background daemon — battery friendly
-- ✅ Supports Magisk, KernelSU, KernelSU Next, SukiSU, APatch & forks
-- ✅ Works on all mainstream brands (Samsung, Xiaomi, Realme, Oppo, OnePlus, Vivo, Motorola, Nothing, Huawei, Honor, Pixel, Nokia & more)
-- ✅ Blocks GMS from overriding the custom emoji
-- ✅ Auto update via module manager
+- 🍎 **iOS Emoji** → System-wide replace on all apps
+- 🔤 **Kohinoor Bangla Font** → Applied to system & all apps
+- 🎨 **Beautiful Flashing UI** → Styled terminal output
+- 🧹 **Auto Cache Cleanup** → On install & uninstall
+- ⚡ **Lightweight** → Zero bloat, zero background service
+- 🛡️ **Safe & Reversible** → Disable module & reboot to restore
+- 🔒 **GMS Font Blocked** → Google can't override your emoji
+- 🔄 **Auto Update** → Via module manager
+- 🔧 **Compatible** → Magisk / KernelSU / KernelSU Next / SukiSU / APatch
 
 ---
 
-## 📱 Supported Root Managers
+## 📲 Supported Root Managers
 
 | Manager | Support |
-|---------|---------|
+|---------|:-------:|
 | Magisk | ✅ |
 | Magisk Delta | ✅ |
 | Magisk Alpha | ✅ |
@@ -39,19 +54,19 @@ An all-in-one Magisk / KernelSU module that brings:
 
 ## 🛠️ Installation
 
-1. Download the latest `iOSxAndroid-vX.X.X.zip` from [Releases](../../releases/latest)
-2. Open your module manager (Magisk / KernelSU / APatch)
-3. Go to **Modules** → **Install from storage**
-4. Select the ZIP file
-5. Reboot your device
+1. **Download** the latest `iOSxAndroid-vX.X.X.zip` from [**Releases**](../../releases/latest)
+2. **Open** your module manager (Magisk / KernelSU / APatch)
+3. **Go to** Modules → Install from storage
+4. **Select** the ZIP file
+5. **Reboot** your device
 
-**📌 Note:** After the first boot, wait 30–60 seconds for emoji & font changes to fully apply.
+> 📌 **Note:** After first boot, wait 30–60 seconds for emoji & font changes to fully apply.
 
 ---
 
 ## 🔄 Update
 
-The module supports automatic updates via the module manager. When a new version is released, you'll see an **Update Available** notification — just tap **Update**.
+The module supports **automatic updates** via the module manager. When a new version is released, you'll see an **Update Available** notification — just tap **Update**.
 
 ---
 
@@ -60,30 +75,30 @@ The module supports automatic updates via the module manager. When a new version
 1. Open your module manager
 2. Go to **Modules**
 3. Find **iOSxAndroid** → tap **Remove**
-4. Reboot your device
+4. **Reboot** your device
 
-All changes (emoji, font, caches, GMS font services) will be automatically restored.
+All changes (emoji, font, caches, GMS font services) will be **automatically restored**.
 
 ---
 
 ## ⚠️ Known Limitations
 
-- **WhatsApp, Twitter/X, Discord, Snapchat** — these apps bundle their own emoji inside the APK, so the module can't change them. (WhatsApp already uses Apple-style emoji by default.)
-- **Instagram Story reply picker** may crash on some ROMs — if it does, remove `com.instagram.android` from the script and reinstall.
+- **WhatsApp, Twitter/X, Discord, Snapchat** → These apps bundle emoji inside the APK. Module can't change them.
+- **Instagram Story reply picker** → May crash on some ROMs. If it does, remove `com.instagram.android` from the script and reinstall.
 
 ---
 
 ## 🧪 Requirements
 
-- Android 10 or higher
-- Magisk / KernelSU / APatch installed
-- 30 MB free storage
+- Android **10 or higher**
+- **Magisk / KernelSU / APatch** installed
+- **~30 MB** free storage
 
 ---
 
 ## 📖 Changelog
 
-See [changelog.md](changelog.md) for a full version history.
+See [**changelog.md**](changelog.md) for full version history.
 
 ---
 
@@ -95,8 +110,12 @@ See [changelog.md](changelog.md) for a full version history.
 
 ## 📜 License
 
-MIT License — feel free to fork, modify & share.
+**MIT License** — feel free to fork, modify & share.
 
 ---
 
-## 🇵🇸 Support Palestine
+<div align="center">
+
+### 🇵🇸 Support Palestine
+
+</div>
