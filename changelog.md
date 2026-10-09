@@ -1,48 +1,65 @@
-# Changelog
+# 📜 Changelog
 
-## v1.0.1 — Stability Fix ⚡
-**Release Date:** October 09, 2026
-
-### 🔧 Fixed
-- **Facebook / Messenger crash** after install — app-specific bind mount removed
-- **Instagram crash** on story reply picker — Instagram lock removed  
-- **TikTok crash** — TikTok lock removed
-- **Boot hang / screen freeze** on some devices — nested find operations removed
-- **Extra GMS services disable** reverted to only essential services
-- **Boot time** improved by ~20 seconds on heavy devices
-
-### ✨ Improved
-- Auto cleanup before reinstall — prevents old corrupt font files
-- Dynamic `module.prop` reading — name / version / author auto-updates
-- Logging system added (`/data/adb/modules/iOSx69/iOSxAnd.log`)
-- Safer `bind_font()` — no empty file creation, no data loss
-- Timeout protection in `wait_for_boot()` — prevents infinite loop
-
-### 🗑️ Removed
-- Instagram explicit lock (caused crash)
-- TikTok explicit lock (caused crash)
-- Facebook / Messenger font download block (caused hang)
-- Extra GMS services (FontsUpdateService, FontsService)
-- Nested find operations (CPU overload)
-
-### 🎯 Result
-- ✅ All apps open normally (FB, Insta, TikTok, Messenger)
-- ✅ System-wide iOS emoji still works
-- ✅ No crash, no hang, no boot loop
-- ✅ Stable on all Android versions 10–16
-- ✅ Works on Magisk / KernelSU / KernelSU Next / SukiSU / APatch
+All notable changes to **iOSx69** will be documented here.
 
 ---
 
-## v1.0.0 — Initial Release 🌱
-**Release Date:** October 08, 2026
+## 📦 v0.1 — Initial Release 🌱
+
+![VERSION](https://img.shields.io/badge/VERSION-v0.1-blue?style=for-the-badge)
+
+**Release Date:** October 09, 2026
 
 ### ✨ Features
-- iOS emoji system-wide replace
-- Kohinoor Bangla font
-- Facebook / Messenger / Instagram / TikTok support
-- Gecko (Firefox) support
-- GMS font override blocked
-- Mainstream BD brands supported
-- No daemon, no battery drain
-- Magisk / KernelSU / KernelSU Next / SukiSU / APatch support
+- 🍎 **iOS Emoji** — system-wide replace
+- 🔤 **Kohinoor Bangla Font** — applied everywhere
+- 🎨 **OEM emoji aliases** — Samsung, Xiaomi, OPPO, Realme, Vivo, Moto, Nothing, Huawei, Honor
+- 🔒 **Facebook / Messenger / Lite / Msg Lite lock**
+- 🚫 **GMS font updater blocked** — no stock emoji override
+- 🔄 **Auto update via GitHub**
+- ⚡ **Zero daemon, zero battery drain**
+- 🧹 **Auto cleanup on install & uninstall**
+
+### 🔧 Compatibility
+
+![Magisk](https://img.shields.io/badge/Magisk-00AF9C?style=for-the-badge)
+![KernelSU](https://img.shields.io/badge/KernelSU-3D5AFE?style=for-the-badge)
+![KernelSU Next](https://img.shields.io/badge/KernelSU_Next-3D5AFE?style=for-the-badge)
+![SukiSU](https://img.shields.io/badge/SukiSU-3D5AFE?style=for-the-badge)
+![ReSukiSU](https://img.shields.io/badge/ReSukiSU-9D4EDD?style=for-the-badge)
+![APatch](https://img.shields.io/badge/APatch-FF5722?style=for-the-badge)
+
+- ✅ Android **10 – 16**
+- ✅ All mainstream brands
+
+### 🐛 Known Limitations
+- ❌ **WhatsApp / Twitter / Discord** — bundled own emoji (unchangeable)
+- ⚠️ **Instagram Story reply picker** — may crash on some ROMs
+
+---
+
+<!--
+======================= TEMPLATE =======================
+
+## [vX.Y.Z] — YYYY-MM-DD
+
+![VERSION](https://img.shields.io/badge/VERSION-vX.Y.Z-color?style=for-the-badge)
+
+### Added
+- 
+
+### Changed
+- 
+
+### Fixed
+- 
+
+### Removed
+- 
+
+========================================================
+-->
+
+---
+
+![PALESTINE](https://img.shields.io/badge/🇵🇸_Free_Palestine-🇵🇸-green?style=for-the-badge)
