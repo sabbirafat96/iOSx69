@@ -62,4 +62,4 @@ All notable changes to **iOSx69** will be documented here.
 
 ---
 
-![PALESTINE](https://img.shields.io/badge/🇵🇸_Free_Palestine_🇵🇸-🇵S&S-green?style=for-the-badge)
+![PALESTINE](https://img.shields.io/badge/🇵🇸_Free_Palestine_🇵🇸-S96-green?style=for-the-badge)
