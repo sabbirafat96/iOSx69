@@ -54,7 +54,7 @@
 
 ## 🛠️ Installation
 
-1. **Download** the latest `iOSxAndroid-vX.X.X.zip` from [**Releases**](../../releases/latest)
+1. **Download** the latest `iOSx69.zip` from [**Releases**](../../releases/latest)
 2. **Open** your module manager (Magisk / KernelSU / APatch)
 3. **Go to** Modules → Install from storage
 4. **Select** the ZIP file
