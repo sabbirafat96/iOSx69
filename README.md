@@ -98,7 +98,7 @@ All changes (emoji, font, caches, GMS font services) will be **automatically res
 
 ## 📖 Changelog
 
-See [**changelog.md**](changelog.md) for full version history.
+See [**CHANGES**](changelog.md) for full version history.
 
 ---
 
@@ -116,6 +116,7 @@ See [**changelog.md**](changelog.md) for full version history.
 
 <div align="center">
 
-### 🇵🇸 Support Palestine
+### 🇵🇸 Support Palestine 🇵🇸
+<img src="Palestine.png" alt="Support Palestine Banner" width="100%">
 
 </div>
