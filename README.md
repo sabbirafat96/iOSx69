@@ -12,7 +12,7 @@
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/VERSION-1.0.0-blue?style=for-the-badge&labelColor=1a1a1a)
+![Version](https://img.shields.io/badge/VERSION-o.1-blue?style=for-the-badge&labelColor=1a1a1a)
 ![Author](https://img.shields.io/badge/AUTHOR-SABBIR_SENPAI-purple?style=for-the-badge&labelColor=1a1a1a)
 ![Platform](https://img.shields.io/badge/PLATFORM-MAGISK_|_KERNELSU_|_APATCH-red?style=for-the-badge&labelColor=1a1a1a)
 ![License](https://img.shields.io/badge/LICENSE-MIT-green?style=for-the-badge&labelColor=1a1a1a)
