@@ -1,6 +1,6 @@
 # 📜 Changelog
 
-## v0.2 — 2026-10-16
+## `v0.2` — 2026-10-16
 
 - 🔤 Kohinoor Bangla Font added
 - 🛡️ Enhanced override protection
@@ -8,7 +8,7 @@
 
 ---
 
-## v0.1 — 2026-10-16
+## `v0.1` — 2026-10-09
 
 - 🎨 Initial release — Apple iOS Emoji
 - 🚫 No force binding
